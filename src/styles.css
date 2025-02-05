@@ -1,0 +1,13 @@
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: fit-content;
+}
+
+#content{
+    height: 98vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+
+}
