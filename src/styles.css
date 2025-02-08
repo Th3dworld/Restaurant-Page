@@ -71,5 +71,19 @@ body{
 
 /* Menu CSS */
 table, td, th {
-    border: 1px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.244);
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th {
+    width: 20%;
+}
+
+#menu-body{
+    height: 98vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
