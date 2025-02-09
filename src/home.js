@@ -27,5 +27,6 @@ function createHome(){
     contentDiv.append(elem);
 }
 
-createHome();
-export {createHome};
+// createHome();
+
+// export {createHome};
