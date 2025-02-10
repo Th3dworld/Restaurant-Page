@@ -11,7 +11,7 @@ function createMenu(){
     
     //Add other parts of table
     menu.innerHTML +=`
-    <thead>
+                <thead>
                     Menu
                 </thead>
                 <tr>
@@ -94,4 +94,4 @@ function createMenu(){
     contentDiv.append(elem)
 }
 
-// createMenu();
+export {createMenu}
